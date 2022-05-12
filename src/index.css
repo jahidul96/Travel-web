@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 bg-orange-500 text-white rounded-lg shadow-lg font-semibold
+}
+
+.btn2 {
+    @apply py-2 px-6 text-white rounded-lg shadow-lg font-semibold
+}
+
+.smallScreenNavStyle {
+    @apply duration-500 rounded-lg text-center mb-6 cursor-pointer
+}
+
+
+.skillstyle {
+    @apply mb-4 mt-4 w-1/2 bg-blue-600 text-white py-2 px-10 rounded-lg font-bold text-lg
+}
+
+.skillstyleText {
+    @apply mb-4 mt-4 w-1/2 bg-red-600 text-white py-2 px-10 rounded-lg font-bold text-lg
+}
+
+.input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 70%;
+}
+
+
+
+/* sohwcase styles */
+
+@media (max-width: 1048px) {
+
+    .imgNone {
+        display: none;
+    }
+
+    .margintopDivStyle {
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .margintopDivStyle {
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
+/* inputbar style */
+
+.inputbarWidth {
+    width: 750px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+    .inputbarWidth {
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+/* customersay stayle */
+.customWidth {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/* blog styles */
+
+.blogcustomWidth {
+    max-width: 800px;
+    margin: 0 auto;
+}
